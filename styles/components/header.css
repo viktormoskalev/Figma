@@ -1,0 +1,31 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+
+.header-top{
+  display: flex;
+  flex-direction: column;
+order: 1;
+}
+.logo{
+  order:0;
+}
+
+.login .name{
+
+}
+
+.login-photo{
+  display: inline-block;
+  height: 29px;
+  width: 29px;
+}
+
+.header-top .list{
+  list-style-type: none;
+ padding-left: 20px;
+order:3
+}

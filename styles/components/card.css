@@ -1,0 +1,24 @@
+.card {
+
+}
+
+.card-title {
+}
+
+.card-description {
+}
+
+.card-image {
+  height: 300px;
+}
+
+.card-image > img {
+}
+
+.card-duration{
+
+}
+
+.card .grid{
+  justify-content: space-between;
+}
