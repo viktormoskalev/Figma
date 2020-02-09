@@ -1,31 +1,40 @@
-.header{
+.header {
+  padding: 10px 0;
+}
+
+
+.header-top {
+  align-items: center;
+justify-content: space-around;
   display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
+  flex-wrap: wrap;
+  padding: 0 50px;
 }
 
+.logo {
+  order: 0;
+}
 
-.header-top{
+.login{
   display: flex;
-  flex-direction: column;
-order: 1;
-}
-.logo{
-  order:0;
+  justify-content: center;
+  align-items: center;
 }
 
-.login .name{
-
+.login .name {
+  font-size: 20px;
 }
 
-.login-photo{
+.login-photo {
   display: inline-block;
   height: 29px;
   width: 29px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.header-top .list{
+.header-top .list {
   list-style-type: none;
- padding-left: 20px;
-order:3
+  padding-left: 20px;
+    margin: 0;
 }

@@ -2,9 +2,7 @@
   box-sizing: border-box;
 }
 
-*:hover{
-  outline:green solid 1px;
-}
+
 html {
   font-size: 16px;
   font-weight: 400;
@@ -20,7 +18,7 @@ body{
 }
 
 .container {
-  padding: 0 10px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -45,6 +43,8 @@ figure {
 img {
   width: 100%;
   height: auto;
+  object-fit: cover;
+
 }
 
 p,
@@ -76,3 +76,20 @@ h6 {
 * + h6 {
   margin-top: 0.67em;
 }
+
+.b-radius .grid-item:nth-child(1) img{
+border-top-left-radius: 30px;
+}
+
+.b-radius .grid-item:nth-child(2) img{
+border-top-right-radius: 30px;
+}
+
+.b-radius .grid-item:nth-child(3) img{
+border-bottom-left-radius: 30px;
+}
+
+.b-radius .grid-item:nth-child(4) img{
+border-bottom-right-radius: 30px;
+}
+

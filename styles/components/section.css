@@ -1,5 +1,5 @@
 .section {
-
+  padding: 20px 0;
 }
 
 .section-title {
@@ -9,3 +9,10 @@
 .section-description {
 }
 
+
+.section-reviews{
+  background: #F2F7FF;
+}
+.section-popular-tours{
+  background: #F2F7FF;
+}
