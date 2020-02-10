@@ -1,18 +1,18 @@
 .section {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
-.section-title {
-}
-.section-subtitle {
-}
-.section-description {
-}
+.section-title {}
+
+.section-subtitle {}
+
+.section-description {}
 
 
-.section-reviews{
+.section-reviews {
   background: #F2F7FF;
 }
-.section-popular-tours{
+
+.section-popular-tours {
   background: #F2F7FF;
 }

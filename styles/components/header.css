@@ -5,7 +5,7 @@
 
 .header-top {
   align-items: center;
-justify-content: space-around;
+  justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
   padding: 0 50px;
@@ -15,7 +15,7 @@ justify-content: space-around;
   order: 0;
 }
 
-.login{
+.login {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,5 +36,9 @@ justify-content: space-around;
 .header-top .list {
   list-style-type: none;
   padding-left: 20px;
-    margin: 0;
+  margin: 0;
+}
+
+.header-top .list li::before {
+  margin-right: 10px;
 }

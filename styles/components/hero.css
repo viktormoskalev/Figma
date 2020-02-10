@@ -1,9 +1,15 @@
 .hero {
   background-image: url(../../images/bg_1.jpg);
-  }
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
 
 .hero-title {
+  font-size: 32px
 }
 
 .hero-subtitle {
+  font-size: 19px;
 }

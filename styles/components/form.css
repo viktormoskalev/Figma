@@ -1,9 +1,9 @@
-.form {
-  
-}
+.form {}
+
 .form-group {
   margin-bottom: 40px;
 }
+
 .form-control {
   position: relative;
   margin-bottom: 10px;
@@ -82,6 +82,7 @@
   right: 0;
   left: auto;
 }
+
 .form-icon-flip ~ .input {
   padding-right: 40px !important;
 }
