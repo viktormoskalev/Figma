@@ -3,13 +3,15 @@
   background-size: cover;
   background-position: center;
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 0px 0px 1px black;
 }
 
 .hero-title {
-  font-size: 32px
+font-weight: 900;
 }
 
 .hero-subtitle {
-  font-size: 19px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
 }

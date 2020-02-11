@@ -10,19 +10,18 @@
 }
 
 .input,
-.select,
-.textarea {
+.select{
   max-width: 100%;
   width: 100%;
-  height: 55px;
+  height: 40px;
   padding: 0 20px;
-  background-color: #fff;
-  color: #666;
+  background-color: #F2F7FF;
+  color: #373F55;
   border: 1px solid #e5e5e5;
   margin: 0;
-  border-radius: 10px;
+  border-radius: 133px;
   font-size: inherit;
-
+  font-weight: 600;
 }
 
 .input:focus,
@@ -30,7 +29,7 @@
 .textarea:focus {
   outline: none;
   background-color: #fff;
-  color: #666;
+  color: #373F55;
   border-color: #1e87f0;
 }
 
@@ -38,17 +37,14 @@
 .select:disabled,
 .textarea:disabled {
   background-color: #f8f8f8;
-  color: #999;
+  color: #373F55;
   border-color: #e5e5e5;
 }
 
 .input::placeholder {
-  color: #999;
+  color: #373F55;
 }
 
-.textarea::placeholder {
-  color: #999;
-}
 
 .input-danger,
 .input-danger:focus {
@@ -71,7 +67,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  color: #999;
+  color: #373F55;
 }
 
 .form-icon:not(.form-icon-flip) ~ .input {

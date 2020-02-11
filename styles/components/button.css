@@ -8,6 +8,7 @@
   text-decoration: none;
   -webkit-appearance: none;
   appearance: none;
+  margin-top: 20px;
 }
 
 .button:hover {
@@ -15,8 +16,9 @@
 }
 
 .button-primary {
-  padding: 12px 86px;
-  font-size: 30px;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 20px;
   background-color: #FF0032;
   color: white;
   border-radius: 133px;

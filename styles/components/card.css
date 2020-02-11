@@ -1,17 +1,19 @@
-.card{
-background-color: white; 
-padding: 20px;
-box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
-border-radius: 20px;
+.card {
+  background-color: white;
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.card-reviews {
-
+.card-padding {
+  padding: 20px;
 }
 
 .card-title {}
 
-.card-description {}
+.card-description {
+  margin: 20px 0;
+}
 
 .card-image {
 
@@ -32,4 +34,22 @@ border-radius: 20px;
   height: 16px;
   display: inline-block;
 
+}
+
+.card-cost,
+.card-duration {
+  font-size: 20px;
+}
+
+.card-duration {
+  color: #888EA0;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.card-cost {
+  font-size: 30px;
+  line-height: 36px;
+  color: #373F55;
+  font-weight: 600;
 }

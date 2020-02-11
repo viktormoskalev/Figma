@@ -8,11 +8,12 @@
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 50px;
+  padding: 0 24px;
 }
-
-.logo {
-  order: 0;
+.header-top > *{
+margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .login {
@@ -29,7 +30,7 @@
   display: inline-block;
   height: 29px;
   width: 29px;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-right: 5px;
 }
 

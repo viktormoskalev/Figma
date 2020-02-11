@@ -51,10 +51,10 @@
 }
 
 .footer .button {
-  margin: 15px 0 50px 0;
+  margin: 15px 0 10px 0;
 }
 
-.footer-list {
+.footer .list {
   font-size: 19px;
   line-height: 20px;
   color: #F2F7FF;
@@ -69,6 +69,7 @@
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
@@ -85,7 +86,15 @@
   height: 45px;
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  font-size: 23px;
+}
+
+
+.footer-icon:hover{
+  background: black;
+  color: white;
+  
 }
 
 .footer-flex {
